@@ -1,5 +1,5 @@
 export class UserService {
   getUser() {
-    return { id: 1, name: 'Admin', avatar: '😎' };
+    return { id: 1, name: 'Admin', avatar: '😎', email: 'test@me.com' };
   }
 }
